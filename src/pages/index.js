@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import { NextSeo } from "next-seo";
 import Navbar from "../components/Navbar";
 import Hero from "@/components/Hero";
@@ -8,8 +6,9 @@ import Service from "@/components/Service";
 import About from "@/components/About";
 import Partner from "@/components/Partner";
 import Value from "@/components/Value";
-
-const inter = Inter({ subsets: ["latin"] });
+import Team from "@/components/Team";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -25,6 +24,9 @@ export default function Home() {
       <About />
       <Partner />
       <Value />
+      <Team />
+      <Contact />
+      <Footer />
     </div>
   );
 }

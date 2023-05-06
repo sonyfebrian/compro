@@ -21,16 +21,16 @@ export default function About() {
 
               <p className="leading-relaxed">
                 In a life that is constantly evolving and growing complexity,
-                information technology is needed to meet the challenges of these
-                developments. Information technology has the main objective to
-                simplify human activities, as well as to give solution for every
-                problem in life. We built PT. DINAMIKA VISUAL KREASINDO
-                (INIDIGI) on the basis of enthusiasm and a strong commitment
-                among its founders in providing solutions to all business
-                activities of our clients. We offer a solution in the form of
-                information technology, which we believe will be very useful and
-                will be the best solution to any problem in the growing
-                complexity of any existing businesses.
+                inhtmlFormation technology is needed to meet the challenges of
+                these developments. InhtmlFormation technology has the main
+                objective to simplify human activities, as well as to give
+                solution htmlFor every problem in life. We built PT. DINAMIKA
+                VISUAL KREASINDO (INIDIGI) on the basis of enthusiasm and a
+                strong commitment among its founders in providing solutions to
+                all business activities of our clients. We offer a solution in
+                the htmlForm of inhtmlFormation technology, which we believe
+                will be very useful and will be the best solution to any problem
+                in the growing complexity of any existing businesses.
               </p>
               <div className="mb-1 mt-4 text-base font-medium dark:text-white">
                 Hardware

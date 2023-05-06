@@ -57,7 +57,7 @@ export default function Hero() {
         <div className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <p className=" text-5xl text-center ">WIJAYA KARYA – BPM</p>
           <p className="text-base text-center mt-2">
-            We bring solution for construction business throught Business
+            We bring solution htmlFor construction business throught Business
             Process Modeling
           </p>
         </div>

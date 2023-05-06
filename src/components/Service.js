@@ -16,7 +16,8 @@ export default function Service() {
               INIDIGI SERVICES
             </h1>
             <h2 className="text-lg text-indigo-500 tracking-widest font-medium title-font mb-1">
-              Do the best to giving solutions in technology information globally
+              Do the best to giving solutions in technology inhtmlFormation
+              globally
             </h2>
           </div>
           <div className="flex flex-wrap -m-4">
@@ -65,8 +66,8 @@ export default function Service() {
                     IT CONSULTING
                   </h2>
                   <p className="leading-relaxed text-base">
-                    Specializes in a wide range of information technology
-                    solutions for your company including network
+                    Specializes in a wide range of inhtmlFormation technology
+                    solutions htmlFor your company including network
                   </p>
                 </div>
               </div>
