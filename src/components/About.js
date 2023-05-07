@@ -16,28 +16,28 @@ export default function About() {
             />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-1 lg:mt-0">
               <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
-                ABOUT INIDIGI
+                ABOUT DINAMIKA
               </h1>
 
               <p className="leading-relaxed">
                 In a life that is constantly evolving and growing complexity,
-                inhtmlFormation technology is needed to meet the challenges of
-                these developments. InhtmlFormation technology has the main
-                objective to simplify human activities, as well as to give
-                solution htmlFor every problem in life. We built PT. DINAMIKA
-                VISUAL KREASINDO (INIDIGI) on the basis of enthusiasm and a
-                strong commitment among its founders in providing solutions to
-                all business activities of our clients. We offer a solution in
-                the htmlForm of inhtmlFormation technology, which we believe
-                will be very useful and will be the best solution to any problem
-                in the growing complexity of any existing businesses.
+                information technology is needed to meet the challenges of these
+                developments. Information technology has the main objective to
+                simplify human activities, as well as to give solution for every
+                problem in life. We built PT. DINAMIKA VISUAL KREASINDO
+                (INIDIGI) on the basis of enthusiasm and a strong commitment
+                among its founders in providing solutions to all business
+                activities of our clients. We offer a solution in the form of
+                information technology, which we believe will be very useful and
+                will be the best solution to any problem in the growing
+                complexity of any existing businesses.
               </p>
               <div className="mb-1 mt-4 text-base font-medium dark:text-white">
                 Hardware
               </div>
               <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
                 <div
-                  className="bg-blue-600 p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
+                  className="bg-[#000080] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
                   style={{ width: "10%" }}
                 >
                   10%
@@ -48,7 +48,7 @@ export default function About() {
               </div>
               <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
                 <div
-                  className="bg-blue-600 p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
+                  className="bg-[#000080] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
                   style={{ width: "10%" }}
                 >
                   10%
@@ -60,7 +60,7 @@ export default function About() {
               </div>
               <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
                 <div
-                  className="bg-blue-600 p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
+                  className="bg-[#000080] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
                   style={{ width: "80%" }}
                 >
                   80%
@@ -72,7 +72,7 @@ export default function About() {
               </div>
               <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
                 <div
-                  className="bg-blue-600 p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
+                  className="bg-[#000080] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
                   style={{ width: "80%" }}
                 >
                   80%
@@ -83,7 +83,7 @@ export default function About() {
               </div>
               <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
                 <div
-                  className="bg-blue-600 p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
+                  className="bg-[#000080] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
                   style={{ width: "80%" }}
                 >
                   80%
