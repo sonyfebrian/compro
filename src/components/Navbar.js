@@ -107,9 +107,9 @@ export default function Header() {
               who we are
             </Link>
             <Link
-              href="/what"
+              href="/product"
               className={
-                currentRoute === "/who"
+                currentRoute === "/product"
                   ? "mx-2 text-sm uppercase cursor-pointer text-[#00FFFF] border-b-2 border-[#00FFFF]  hover:text-[#00FFFF] font-semibold"
                   : "mx-2 text-sm uppercase cursor-pointer text-[#C0C0C0] hover:text-white font-semibold tr04"
               }
