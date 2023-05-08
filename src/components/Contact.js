@@ -1,14 +1,14 @@
-import Bg from "../assets/bgcontact.png";
+import Bg from "../assets/bgcontact.webp";
 import Image from "next/image";
 
 export default function Contact() {
   return (
     <>
-      <section className="text-gray-600 body-font relative mt-20 mb-24">
-        <div className="absolute inset-0  ">
+      <section className="text-gray-600 body-font relative mt-20 mb-24  ">
+        <div className="absolute inset-0  hidden md:block ">
           <Image width="100%" height="100%" src={Bg} alt="props" />
         </div>
-        <div className="flex flex-col text-center w-full relative my-4 ">
+        <div className="flex flex-col text-center w-full relative my-4 hidden md:block ">
           <h1 className="sm:text-3xl text-2xl font-bold title-font mt-4 text-white">
             Contact Us
           </h1>
@@ -16,11 +16,11 @@ export default function Contact() {
             We would love to hear from you
           </p>
         </div>
-        <div className="container px-5  mx-auto flex">
+        <div className="container px-5  mx-auto flex hidden md:block">
           <div className="wrap w-5/6 mx-auto relative">
             <div className="grid grid-cols-10 ">
-              <div className="row-span-full col-span-6 col-end-11 self-center px-28 py-4 text-white bg-white rounded-lg">
-                <div className="lg:w-full md:w-2/3 mx-auto">
+              <div className="row-span-full col-span-6 col-end-11 self-center px-28 py-4 text-white  bg-white rounded-lg">
+                <div className="w-full  mx-auto">
                   <div className="flex flex-wrap -m-2">
                     <div className="p-2 w-full">
                       <div className="relative">

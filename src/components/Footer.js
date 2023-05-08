@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
     <>
-      <footer className="text-gray-600 body-font">
-        <div className="container px-5 py-8 flex ">
-          <div className="lg:w-2/4 sm:w-1/2 w-full">
-            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">
+      <footer className="text-gray-600 body-font border-t">
+        <div className="container px-5 py-8 flex sm:mx-auto sm:mb-2  ">
+          <div className="p-2 sm:w-1/2 w-full ">
+            <h2 className="font-medium  title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">
               PRODUCTS AND SOLUTIONS
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center item-center  -mb-1 space-y-2.5">
@@ -106,11 +106,11 @@ export default function Footer() {
               </span>
             </nav>
           </div>
-          <div className="lg:w-2/4 sm:w-1/2 w-full">
+          <div className="p-2 sm:w-1/2 w-full">
             <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">
               SERVICES
             </h2>
-            <nav className="flex flex-col sm:items-start sm:text-left text-center  -mb-1 space-y-2.5">
+            <nav className="flex flex-col text-center sm:text-left  p-2 sm:w-1/2 w-full -mb-1 space-y-2.5">
               <span>
                 <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "../assets/about.png";
+import Logo from "../assets/about.webp";
 
 export default function About() {
   return (

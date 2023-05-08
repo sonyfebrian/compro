@@ -1,4 +1,4 @@
-import valueBg from "../assets/value.png";
+import valueBg from "../assets/value.webp";
 import Image from "next/image";
 
 export default function Value() {
@@ -16,7 +16,7 @@ export default function Value() {
             />
             <div className="text-center relative z-10 w-full">
               <h2 className="text-2xl text-[#C0C0C0] font-medium title-font mb-2">
-                INIDIGI VALUE
+                DINAMIKA VALUE
               </h2>
               <p className="leading-relaxed text-[#C0C0C0]">
                 Alhamdulillah for individual skill and great team to completed

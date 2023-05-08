@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import HeroLogo from "../assets/hero.png";
-import { Carousel, CarouselItem } from "react-bootstrap";
+
+import HeroLogo from "../assets/hero.webp";
 
 export default function Hero() {
   const [index, setIndex] = useState(0);
@@ -12,8 +12,7 @@ export default function Hero() {
   };
   return (
     <>
-      <section className="hero relative">
-        {/* <Carousel>
+      {/* <Carousel>
           <Carousel.Item>
             <Image
               width="400px"
@@ -47,6 +46,8 @@ export default function Hero() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel> */}
+
+      <section className="hero relative">
         <Image
           width="400px"
           height=""
@@ -54,6 +55,21 @@ export default function Hero() {
           alt="houses on the water"
           className="w-full"
         />
+
+        <div className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          <p className=" text-5xl text-center ">WIJAYA KARYA – BPM</p>
+          <p className="text-base text-center mt-2">
+            We bring solution for construction business throught Business
+            Process Modeling
+          </p>
+        </div>
+        <div className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          <p className=" text-5xl text-center ">WIJAYA KARYA – BPM</p>
+          <p className="text-base text-center mt-2">
+            We bring solution for construction business throught Business
+            Process Modeling
+          </p>
+        </div>
         <div className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <p className=" text-5xl text-center ">WIJAYA KARYA – BPM</p>
           <p className="text-base text-center mt-2">
