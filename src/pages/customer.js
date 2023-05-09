@@ -1,20 +1,19 @@
+import Image from "next/image";
+import Bg from "../assets/customer.webp";
+import Bg1 from "../assets/customer1.webp";
+import Bg2 from "../assets/customer2.webp";
+import Bg3 from "../assets/customer3.webp";
+import Bg4 from "../assets/customer4.webp";
+import Bg5 from "../assets/customer5.webp";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Bg from "../assets/gallery.webp";
-import Bg1 from "../assets/gallery1.webp";
-import Bg2 from "../assets/gallery2.webp";
-import Bg3 from "../assets/gallery3.webp";
-import Bg4 from "../assets/gallery4.webp";
-import Bg5 from "../assets/gallery5.webp";
-import Image from "next/image";
 
-const gallery = () => {
+const customer = () => {
   return (
     <>
       <Navbar />
       <Hero />
-
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
@@ -108,10 +107,9 @@ const gallery = () => {
           </div>
         </div>
       </section>
-
       <Footer />
     </>
   );
 };
 
-export default gallery;
+export default customer;

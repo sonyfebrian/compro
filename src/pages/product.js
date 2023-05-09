@@ -445,8 +445,8 @@ const Product = () => {
                   system such as patient data collection, service, medical
                   records, medical support, pharmacy, cashier & billing services
                   to managerial reports and information services. PT DINAMIKA
-                  VISUAL KREASINDO (INIDIGI) provides the best solution for
-                  hospital efficiency.
+                  VISUAL KREASINDO provides the best solution for hospital
+                  efficiency.
                 </p>
               </div>
             </div>
@@ -512,7 +512,7 @@ const Product = () => {
                   Having to form and IT Department to manage and troubleshoot
                   these desktops and applications might not make sense for an
                   organization. Managing and troubleshooting is usually not a
-                  core activity within an organization. With IniDigi Managed
+                  core activity within an organization. With Dinamika Managed
                   Services & Maintenance Support, we take care of entire E2E IT
                   Operations for our customers with a low predictable monthly
                   fee. Our Managed Services and Maintenance Support pricing are
@@ -638,7 +638,7 @@ const Product = () => {
                   System Implementation, Integration, or Project Management, our
                   world class and industry-trained professionals are ready to
                   deliver services that will exceed your expectation. Through
-                  years of experience and multiple industry exposure, IniDigi’s
+                  years of experience and multiple industry exposure, Dinamika
                   implementation methodology has evolved and adapts to fit your
                   organization needs. Our personalize approach will provide
                   guidance to rapidly implement the right solution without

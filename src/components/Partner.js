@@ -1,18 +1,41 @@
 import LogoAge from "../assets/Ag.webp";
 import LogoIsystem from "../assets/isystem.webp";
 import Image from "next/image";
+import { motion } from "framer-motion";
+
+const introHeaderVariants = {
+  hide: {
+    opacity: 0,
+    x: -100,
+  },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 2,
+    },
+  },
+};
 
 export default function Partner() {
   return (
     <>
       <section className="bg-white dark:bg-gray-900">
         <div className="py-8 lg:py-8 mx-auto max-w-screen-xl px-1">
-          <h2 className="mb-1 lg:mb-1 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 dark:text-white md:text-4xl">
-            DINAMIKA PARTNER
-          </h2>
-          <p className="leading-relaxed text-base text-center mb-4">
-            Meet our Professional Partner
-          </p>
+          <motion.header
+            variants={introHeaderVariants}
+            initial="hide"
+            whileInView="show"
+            exit="hide"
+          >
+            <h2 className="mb-1 lg:mb-1 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 dark:text-white md:text-4xl">
+              DINAMIKA PARTNER
+            </h2>
+            <p className="leading-relaxed text-base text-center mb-4">
+              Meet our Professional Partner
+            </p>
+          </motion.header>
+
           <div>
             <div className="flex flex-wrap md:w-1/2 justify-center items-center">
               <Image src={LogoAge} width="40px" height="40px" alt="Logo" />

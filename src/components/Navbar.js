@@ -21,6 +21,7 @@ export default function Header() {
     };
   }, []);
 
+  console.log(currentRoute, "route");
   return (
     <header
       className="fixed top-0 w-full  z-50  w-full pt-1"
@@ -97,9 +98,9 @@ export default function Header() {
               Home
             </Link>
             <Link
-              href="/gallery"
+              href="/vision"
               className={
-                currentRoute === "/gallery"
+                currentRoute === "/vision"
                   ? "text-sm uppercase cursor-pointer text-[#00FFFF] border-b-2 border-[#00FFFF]  hover:text-[#00FFFF] font-semibold"
                   : "text-sm uppercase cursor-pointer text-[#C0C0C0] hover:text-white font-semibold tr04"
               }
@@ -116,15 +117,36 @@ export default function Header() {
             >
               what we do
             </Link>
-            <a className="mr-4 pr-2 text-sm  uppercase cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
+            <Link
+              href="/dinamika"
+              className={
+                currentRoute === "/dinamika"
+                  ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#00FFFF] border-b-2 border-[#00FFFF] p-1 hover:text-[#00FFFF] font-semibold tr04"
+                  : "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#C0C0C0] hover:text-white font-semibold tr04"
+              }
+            >
               why dinamika
-            </a>
-            <a className="mr-4 pr-2 text-sm uppercase cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
+            </Link>
+            <Link
+              href="customer"
+              className={
+                currentRoute === "/customer"
+                  ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#00FFFF] border-b-2 border-[#00FFFF] p-1 hover:text-[#00FFFF] font-semibold tr04"
+                  : "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#C0C0C0] hover:text-white font-semibold tr04"
+              }
+            >
               customers
-            </a>
-            <a className="mr-4 pr-2 text-sm uppercase cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
+            </Link>
+            <Link
+              href="/gallery"
+              className={
+                currentRoute === "/gallery"
+                  ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#00FFFF] border-b-2 border-[#00FFFF] p-1 hover:text-[#00FFFF] font-semibold tr04"
+                  : "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#C0C0C0] hover:text-white font-semibold tr04"
+              }
+            >
               gallery
-            </a>
+            </Link>
             <Link
               href="/contact"
               className={
@@ -144,7 +166,7 @@ export default function Header() {
                   : "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#C0C0C0] hover:text-white font-semibold tr04"
               }
             >
-              carreer
+              career
             </Link>
           </div>
         </div>

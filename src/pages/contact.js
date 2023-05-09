@@ -121,8 +121,10 @@ export default function contact() {
                 </svg>
 
                 <span className="title-font font-medium">
-                  The CEO Building, Level 12 Jl. TB Simatupang No.18C Jakarta
-                  Selatan 12430
+                  <span className="title-font font-medium">
+                    SOHO Pancoran Noble Wing Lt. 11 Unit 6 Jl. Letjend MT
+                    Haryono Kav 2-3, Tebet Barat, Jakarta Selatan
+                  </span>
                 </span>
               </div>
               <div className="flex h-full items-center py-2">
@@ -143,7 +145,7 @@ export default function contact() {
 
                 <span className="title-font font-medium">+6221 29552704</span>
               </div>
-              <div className="flex h-full items-center py-2">
+              {/* <div className="flex h-full items-center py-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -160,8 +162,8 @@ export default function contact() {
                 </svg>
 
                 <span className="title-font font-medium">info@inidigi.com</span>
-              </div>
-              <div className="flex h-full items-center py-2">
+              </div> */}
+              {/* <div className="flex h-full items-center py-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -180,7 +182,7 @@ export default function contact() {
                 <span className="title-font font-medium">
                   http://www.inidigi.com
                 </span>
-              </div>
+              </div> */}
               <span className="inline-flex">
                 <a className="text-gray-500">
                   <svg

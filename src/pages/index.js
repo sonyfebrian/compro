@@ -1,4 +1,5 @@
 import Head from "next/head";
+
 import { NextSeo } from "next-seo";
 import Navbar from "../components/Navbar";
 import Hero from "@/components/Hero";
@@ -18,7 +19,6 @@ export default function Home() {
         <title>Dinamika Visual</title>
         <link rel="icon" href="/logo.png" />
       </Head>
-
       <Navbar />
       <Hero />
       <Service />

@@ -1,5 +1,20 @@
 import Bg from "../assets/bgcontact.webp";
 import Image from "next/image";
+import { motion } from "framer-motion";
+
+const introHeaderVariants = {
+  hide: {
+    opacity: 0,
+    x: 100,
+  },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 2,
+    },
+  },
+};
 
 export default function Contact() {
   return (
@@ -120,8 +135,8 @@ export default function Contact() {
                   </svg>
 
                   <span className="title-font font-medium">
-                    The CEO Building, Level 12 Jl. TB Simatupang No.18C Jakarta
-                    Selatan 12430
+                    SOHO Pancoran Noble Wing Lt. 11 Unit 6 Jl. Letjend MT
+                    Haryono Kav 2-3, Tebet Barat, Jakarta Selatan
                   </span>
                 </div>
                 <div className="flex h-full items-center py-2">
@@ -142,7 +157,7 @@ export default function Contact() {
 
                   <span className="title-font font-medium">+6221 29552704</span>
                 </div>
-                <div className="flex h-full items-center py-2">
+                {/* <div className="flex h-full items-center py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -157,12 +172,12 @@ export default function Contact() {
                       d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
                     />
                   </svg>
-
+                  
                   <span className="title-font font-medium">
                     info@inidigi.com
                   </span>
-                </div>
-                <div className="flex h-full items-center py-2">
+                </div> */}
+                {/* <div className="flex h-full items-center py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -181,7 +196,7 @@ export default function Contact() {
                   <span className="title-font font-medium">
                     http://www.inidigi.com
                   </span>
-                </div>
+                </div> */}
                 <span className="inline-flex">
                   <a className="text-gray-500">
                     <svg

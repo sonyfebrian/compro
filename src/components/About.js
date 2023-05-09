@@ -1,5 +1,20 @@
 import Image from "next/image";
 import Logo from "../assets/about.webp";
+import { motion } from "framer-motion";
+
+const introHeaderVariants = {
+  hide: {
+    opacity: 0,
+    x: 100,
+  },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 2,
+    },
+  },
+};
 
 export default function About() {
   return (
@@ -14,27 +29,49 @@ export default function About() {
               className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
               src={Logo}
             />
-            <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-1 lg:mt-0">
-              <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
-                ABOUT DINAMIKA
-              </h1>
 
-              <p className="leading-relaxed">
+            <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-1 lg:mt-0">
+              <motion.header
+                initial="hide"
+                whileInView="show"
+                exit="hide"
+                variants={introHeaderVariants}
+              >
+                <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
+                  ABOUT DINAMIKA
+                </h1>
+              </motion.header>
+
+              <motion.header
+                initial="hide"
+                whileInView="show"
+                exit="hide"
+                variants={introHeaderVariants}
+                className="leading-relaxed"
+              >
+                {" "}
                 In a life that is constantly evolving and growing complexity,
                 information technology is needed to meet the challenges of these
                 developments. Information technology has the main objective to
                 simplify human activities, as well as to give solution for every
-                problem in life. We built PT. DINAMIKA VISUAL KREASINDO
-                (INIDIGI) on the basis of enthusiasm and a strong commitment
-                among its founders in providing solutions to all business
-                activities of our clients. We offer a solution in the form of
-                information technology, which we believe will be very useful and
-                will be the best solution to any problem in the growing
-                complexity of any existing businesses.
-              </p>
-              <div className="mb-1 mt-4 text-base font-medium dark:text-white">
+                problem in life. We built PT. DINAMIKA VISUAL KREASINDO on the
+                basis of enthusiasm and a strong commitment among its founders
+                in providing solutions to all business activities of our
+                clients. We offer a solution in the form of information
+                technology, which we believe will be very useful and will be the
+                best solution to any problem in the growing complexity of any
+                existing businesses.
+              </motion.header>
+
+              <motion.header
+                initial="hide"
+                whileInView="show"
+                exit="hide"
+                variants={introHeaderVariants}
+                className="mb-1 mt-4 text-base font-medium dark:text-white"
+              >
                 Hardware
-              </div>
+              </motion.header>
               <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
                 <div
                   className="bg-[#000080] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
@@ -43,9 +80,15 @@ export default function About() {
                   10%
                 </div>
               </div>
-              <div className="mb-1 text-base font-medium dark:text-white">
+              <motion.header
+                initial="hide"
+                whileInView="show"
+                exit="hide"
+                variants={introHeaderVariants}
+                className="mb-1 text-base font-medium dark:text-white"
+              >
                 Network Solution
-              </div>
+              </motion.header>
               <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
                 <div
                   className="bg-[#000080] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
@@ -55,9 +98,15 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="mb-1 text-base font-medium dark:text-white">
+              <motion.header
+                initial="hide"
+                whileInView="show"
+                exit="hide"
+                variants={introHeaderVariants}
+                className="mb-1 text-base font-medium dark:text-white"
+              >
                 IT Consultant
-              </div>
+              </motion.header>
               <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
                 <div
                   className="bg-[#000080] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
@@ -67,9 +116,15 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="mb-1 text-base font-medium dark:text-white">
+              <motion.header
+                initial="hide"
+                whileInView="show"
+                exit="hide"
+                variants={introHeaderVariants}
+                className="mb-1 text-base font-medium dark:text-white"
+              >
                 System Intregrator
-              </div>
+              </motion.header>
               <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
                 <div
                   className="bg-[#000080] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
@@ -78,9 +133,15 @@ export default function About() {
                   80%
                 </div>
               </div>
-              <div className="mb-1 text-base font-medium dark:text-white">
+              <motion.header
+                initial="hide"
+                whileInView="show"
+                exit="hide"
+                variants={introHeaderVariants}
+                className="mb-1 text-base font-medium dark:text-white"
+              >
                 System Development
-              </div>
+              </motion.header>
               <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
                 <div
                   className="bg-[#000080] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
