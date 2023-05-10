@@ -96,7 +96,7 @@ export default function Hero() {
     <>
       <section className="hero relative">
         <Image
-          width="400px"
+          width=""
           height=""
           src={HeroLogo}
           alt="houses on the water"
@@ -104,14 +104,25 @@ export default function Hero() {
         />
         {currentRoute === "/" && (
           <>
-            <span className="absolute text-white text-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-              <AnimatedTextWord text="WIJAYA KARYA – BPM" />
+            {/* <span className="absolute text-white text-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+              <AnimatedTextCharacter text="WIJAYA KARYA – BPM" />
 
               <p className="text-base text-center mt-2">
                 We bring solution for construction business throught Business
                 Process Modeling
               </p>
-            </span>
+            </span> */}
+            {/* <div className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+              <AnimatedTextCharacter text="WIJAYA KARYA – BPM" />
+              <p className="text-base text-center mt-2">
+                We bring solution for construction business throught Business
+                Process Modeling
+              </p>
+            </div> */}
+            <div className=" absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+              {" "}
+              <AnimatedTextCharacter text="WIJAYA KARYA – BPM" />
+            </div>
           </>
         )}
         {currentRoute === "/vision" && (

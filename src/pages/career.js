@@ -12,10 +12,10 @@ const carerr = () => {
           We would like to invite the best talents to take the best challenge as
           :
         </p>
-        <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
+        <h2 className="text-2xl font-medium text-gray-900 title-font ">
           Presales
         </h2>
-        <p className="leading-relaxed">Requirement</p>
+        <p className="leading-relaxed  border-b my-2">Requirement</p>
         <p>
           <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
             <svg
@@ -81,7 +81,7 @@ const carerr = () => {
           </span>
           Understand computer language well (php, java, css and more)
         </p>
-        <p className="leading-relaxed">Qualification</p>
+        <p className="leading-relaxed border-b my-2">Qualification</p>
         <p>
           <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
             <svg

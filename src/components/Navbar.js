@@ -12,7 +12,7 @@ export default function Header() {
   const currentRoute = router.pathname;
   const listenScrollEvent = () => {
     window.scrollY > 10 ? setnavColor("#000000") : setnavColor("transparent");
-    window.scrollY > 10 ? setnavSize("5rem") : setnavSize("10rem");
+    window.scrollY > 10 ? setnavSize("8rem") : setnavSize("10rem");
   };
   useEffect(() => {
     window.addEventListener("scroll", listenScrollEvent);
