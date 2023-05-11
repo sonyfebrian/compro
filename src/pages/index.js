@@ -20,9 +20,10 @@ export default function Home() {
         <title>Dinamika Visual</title>
         <link rel="icon" href="/logo.png" />
       </Head>
+      <ScrollToTop smooth />
       <Navbar />
       <Hero />
-      <ScrollToTop smooth />
+
       <Service />
       <About />
       <Partner />

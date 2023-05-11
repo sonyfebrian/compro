@@ -48,7 +48,7 @@ export default function Team() {
                   />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-gray-900">
-                      DINA APRIYANA
+                      Yuda Dwisaksono
                     </h2>
                     <h3 className="text-gray-500 mb-3">
                       Chief Executive Officer
@@ -108,7 +108,7 @@ export default function Team() {
                   />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-gray-900">
-                      R INDRA ANWAR
+                      Jonathan Fooldya
                     </h2>
                     <h3 className="text-gray-500 mb-3">
                       Sales & Operation Vice President

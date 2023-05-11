@@ -50,17 +50,17 @@ export default function About() {
                 className="leading-relaxed"
               >
                 {" "}
-                In a life that is constantly evolving and growing complexity,
+                In a life that is constantly evolving and growing in complexity,
                 information technology is needed to meet the challenges of these
                 developments. Information technology has the main objective to
-                simplify human activities, as well as to give solution for every
-                problem in life. We built PT. DINAMIKA VISUAL KREASINDO on the
-                basis of enthusiasm and a strong commitment among its founders
-                in providing solutions to all business activities of our
+                simplify human activities, as well as to give a solution for
+                every problem in life. We built PT. DINAMIKA VISUAL KREASINDO
+                based on enthusiasm and a strong commitment among its founders
+                to providing solutions to all business activities of our
                 clients. We offer a solution in the form of information
                 technology, which we believe will be very useful and will be the
                 best solution to any problem in the growing complexity of any
-                existing businesses.
+                existing business.
               </motion.header>
 
               <motion.header
