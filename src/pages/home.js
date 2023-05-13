@@ -11,28 +11,18 @@ import Team from "@/components/Team";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ScrollToTop from "react-scroll-to-top";
-import HomePage from "./home";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div>
-      <NextSeo title="Dinamika Visual" description="Dinamika Visual" />
-      <Head>
-        <title>Dinamika Visual</title>
-        <link rel="icon" href="/logo.png" />
-      </Head>
       <ScrollToTop smooth />
       <Navbar />
       <Hero />
-
       <Service />
       <About />
       <Partner />
-      <Value />
+      {/* <Value /> */}
       <Team />
-      <Contact />
-      <Footer />
-      {/* <HomePage /> */}
     </div>
   );
 }

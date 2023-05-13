@@ -37,8 +37,7 @@ export default function Service() {
                 DINAMIKA SERVICES
               </h1>
               <h2 className="text-lg  tracking-widest font-medium title-font mb-1">
-                Do the best to giving solutions in technology information
-                globally
+                Do our best to give solutions in Information Technology globally
               </h2>
             </div>
             <div className="flex flex-wrap -m-4">

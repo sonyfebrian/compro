@@ -18,9 +18,9 @@ export default function contact() {
           </p>
         </div>
 
-        <div className="wrap w-5/6 mx-auto relative ">
+        <div className="wrap w-full sm:w-5/6 mx-auto relative">
           <div className="grid grid-cols-10 ">
-            <div className="row-span-full col-span-6 col-end-11  self-center px-28 py-4  text-white bg-white shadow-md border rounded-lg">
+            {/* <div className="row-span-full col-span-6 col-end-11  self-center px-28 py-4  text-white bg-white shadow-md border rounded-lg">
               <div className="lg:w-full md:w-2/3 mx-auto ">
                 <div className="flex flex-wrap -m-2">
                   <div className="p-2 w-full">
@@ -94,10 +94,85 @@ export default function contact() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="row-span-full col-start-1 col-span-5 self-center  p-4 text-white bg-[#000080] rounded-lg">
+            </div> */}
+            <div className="row-span-full col-span-6 col-start-5 sm:col-end-11 self-center px-4 sm:px-10 py-4 text-white bg-white shadow-md border rounded-lg">
+              <div className="lg:w-full md:w-2/3 mx-auto">
+                <div className="flex flex-wrap -m-2">
+                  <div className="lg:px-32 w-full">
+                    <div className="relative">
+                      <label
+                        htmlFor="name"
+                        className="leading-7 text-sm text-gray-600"
+                      >
+                        Name
+                      </label>
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="lg:px-32 w-full">
+                    <div className="relative">
+                      <label
+                        htmlFor="email"
+                        className="leading-7 text-sm text-gray-600"
+                      >
+                        Email
+                      </label>
+                      <input
+                        type="text"
+                        id="email"
+                        name="email"
+                        className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                  <div className="lg:px-32 w-full">
+                    <div className="relative">
+                      <label
+                        htmlFor="subject"
+                        className="leading-7 text-sm text-gray-600"
+                      >
+                        Subject
+                      </label>
+                      <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                  <div className="lg:px-32 w-full">
+                    <div className="relative">
+                      <label
+                        htmlFor="message"
+                        className="leading-7 text-sm text-gray-600"
+                      >
+                        Message
+                      </label>
+                      <textarea
+                        id="message"
+                        name="message"
+                        className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div className="lg:px-32 w-full mb-4">
+                    <button className="flex mx-auto text-white bg-[#000080] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                      Send
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>{" "}
+            <div className="hidden md:block lg:block xl:block 2xl:block row-span-full col-start-1 col-span-5 self-center  p-4 text-white bg-[#000080] rounded-lg">
               <h1 className="text-2xl font-bold py-3">
-                Please contact for detail information
+                Please get in touch with us for detailed information
               </h1>
               <div className="flex h-full items-center py-2">
                 <svg
@@ -246,6 +321,7 @@ export default function contact() {
           </div>
         </div>
       </section>
+
       <Footer />
     </div>
   );

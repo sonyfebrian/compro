@@ -111,7 +111,7 @@ export default function Contact() {
               </div>
               <div className="row-span-full col-start-1 col-span-5 self-center  p-4 text-white bg-[#000080] rounded-lg">
                 <h1 className="text-2xl font-bold py-3">
-                  Please contact for detail information
+                  Please get in touch with us for detailed information
                 </h1>
                 <div className="flex h-full items-center py-2">
                   <svg

@@ -32,8 +32,7 @@ export default function Team() {
                 DINAMIKA TEAM
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                Starts from one dream, one vision and mission, here our great
-                team
+                Starts from one dream, one vision and one mission. Meet our team
               </p>
             </div>
             <div className="flex flex-wrap -m-4">

@@ -78,9 +78,13 @@ const Product = () => {
                   DIGITAL MARKETING
                 </h2>
                 <p className="leading-relaxed mb-20">
-                  Provide all in one solutions for Digital Marketing Strategy
+                  Provide all-in-one solutions for Digital Marketing Strategy
                   and Consultancy. Digital Ads, Search Engine, Mobile Marketing,
-                  Email marketing, Social media Marketing, Content & creative
+                  Email Marketing, Social Media Marketing, Content & Creative
+                  Marketing. DATA WAREHOUSE AND BUSINESS INTELLIGENT SOLUTION
+                  Provide all-in-one solutions for Digital Marketing Strategy
+                  and Consultancy. Digital Ads, Search Engine, Mobile Marketing,
+                  Email Marketing, Social Media Marketing, Content & Creative
                   Marketing.
                 </p>
               </div>
@@ -106,10 +110,15 @@ const Product = () => {
                   DATA WAREHOUSE AND BUSINESS INTELLIGENT SOLUTION
                 </h2>
                 <p className="leading-relaxed mb-2">
-                  Provide all in one solutions for Digital Marketing Strategy
-                  and Consultancy. Digital Ads, Search Engine, Mobile Marketing,
-                  Email marketing, Social media Marketing, Content & creative
-                  Marketing.
+                  Data warehouse is a storage for archived data, analysis, and
+                  security purposes. A data warehouse typically can be a
+                  computer or multiple computers (servers) connected to create a
+                  supercomputer system. To make it more useful, the stored data
+                  must first be analyzed, and the Business Intelligence (BI)
+                  provides that system. BI refers to computer-based techniques
+                  used in seeing, gathering information, and analyzing business
+                  data, such as sales revenue by products and related to the
+                  department’s cost and revenue.
                 </p>
               </div>
             </div>
@@ -130,8 +139,8 @@ const Product = () => {
                 <p className="leading-relaxed mb-28">
                   Middleware enables enterprises to create and run agile,
                   intelligent business applications while maximizing IT
-                  efficiency through full utilization of modern hardware and
-                  software architectures.
+                  efficiency by fully utilizing modern hardware and software
+                  architectures.
                 </p>
               </div>
             </div>
@@ -150,10 +159,11 @@ const Product = () => {
                   HUMAN CAPITAL MANAGEMENT
                 </h2>
                 <p className="leading-relaxed">
-                  Support the full Human Resource lifecycle including a common
-                  mobile, social and business intelligence capabilities with a
-                  full complement of security, access control, development,
-                  deployment, storage, and content management capabilities.
+                  Support the entire Human Resource lifecycle, including
+                  standard mobile, social and business intelligence capabilities
+                  with a full complement of security, access control,
+                  development, deployment, storage, and content management
+                  capabilities.
                 </p>
                 <div className="flex flex-wrap mb-40">
                   <div className="w-full">
@@ -298,14 +308,13 @@ const Product = () => {
                 </svg>
 
                 <h2 className="sm:text-3xl text-sm font-medium title-font mb-4">
-                  INSFRASTRUCTURE AS A SERVICES
+                  Infrastructure as a service
                 </h2>
                 <p className="leading-relaxed">
-                  Cloud bases, that provides virtualized computing resources
-                  over the Internet. IaaS platforms offer highly scalable
-                  resources that can be adjusted on-demand. This makes IaaS
-                  well-suited for workloads that are temporary, experimental or
-                  change unexpectedly.
+                  Cloud bases provide virtualized computing resources over the
+                  Internet. IaaS platforms offer highly scalable resources that
+                  can be adjusted on demand. This makes IaaS well-suited for
+                  temporary, experimental workloads or changes unexpectedly.
                 </p>
 
                 <div className="flex flex-wrap">
@@ -330,7 +339,7 @@ const Product = () => {
                           href="#link1"
                           role="tablist"
                         >
-                          Higher Performance
+                          High Performance
                         </a>
                       </li>
                       <li className="flex mb-4">
@@ -381,10 +390,10 @@ const Product = () => {
                           >
                             <p>
                               Customize your cloud server’s configuration and
-                              get the flexibility you need and the high
-                              performance power you want. Choose multi-tenant or
-                              single-tenant, local or SAN storage, by the hour
-                              or month.
+                              get the flexibility you need and the
+                              high-performance power you want. Choose
+                              multi-tenant or single-tenant, local or SAN
+                              storage, by the hour or month.
                             </p>
                           </div>
                           <div
@@ -392,11 +401,11 @@ const Product = () => {
                             id="link2"
                           >
                             <p>
-                              With bare metal servers and virtual servers
-                              integrated in a seamless, fully- automated
-                              platform to optimize performance and management,
-                              you can blur the lines between physical and
-                              virtual and move ideas into reality.
+                              With bare metal and virtual servers integrated
+                              into a seamless, fully- automated platform to
+                              optimize performance and management, you can blur
+                              the lines between physical and virtual and move
+                              ideas into reality.
                             </p>
                           </div>
                           <div
@@ -404,11 +413,11 @@ const Product = () => {
                             id="link3"
                           >
                             <p>
-                              All virtual servers come with a comprehensive set
-                              of features and services—one of the industry’s
-                              best. With these features included at no
-                              additional cost, you can accelerate deployment and
-                              optimize your total cost of operations.
+                              All virtual servers come with comprehensive
+                              features and services—one of the industry’s best.
+                              With these features included at no additional
+                              cost, you can accelerate deployment and optimize
+                              your total cost of operations.
                             </p>
                           </div>
                         </div>
@@ -441,12 +450,12 @@ const Product = () => {
                 <p className="leading-relaxed mb-56">
                   Hospital Integrated Information System is a software
                   application designed to meet the demands of computerization of
-                  all hospital related activities, ranging from standard service
-                  system such as patient data collection, service, medical
+                  all hospital-related activities, ranging from standard service
+                  systems such as patient data collection, service, medical
                   records, medical support, pharmacy, cashier & billing services
                   to managerial reports and information services. PT DINAMIKA
                   VISUAL KREASINDO provides the best solution for hospital
-                  efficiency.
+                  efficiency
                 </p>
               </div>
             </div>
@@ -475,16 +484,16 @@ const Product = () => {
                   IT CONSULTANT
                 </h2>
                 <p className="leading-relaxed mb-20">
-                  As an Indonesian consultant, we value value team work,
+                  As an Indonesian consultant, we value teamwork,
                   professionalism, integrity, initiative, and excellent service.
                   With an experienced consultant, we listen and find the best
-                  solutions for your company to driving your business forward. A
-                  variety of solutions from the planning stage through to full
-                  implementation, including client- led project management, and
-                  also fully hosted solutions if that is your preference. Our
+                  solutions for your company to drive your business forward. A
+                  variety of solutions from the planning stage to full
+                  implementation, including client-led project management and
+                  fully hosted solutions, if that is your preference. Our
                   consultant will help you gain more time and information to use
-                  your resources on the tasks that really matter, enabling you
-                  to grow your business.
+                  your resources on the tasks that matter, enabling you to grow
+                  your business.
                 </p>
               </div>
             </div>
@@ -509,20 +518,20 @@ const Product = () => {
                   MANAGED AND MAINTENANCE SUPPORT
                 </h2>
                 <ReadMore>
-                  Having to form and IT Department to manage and troubleshoot
+                  Having to form an IT Department to manage and troubleshoot
                   these desktops and applications might not make sense for an
                   organization. Managing and troubleshooting is usually not a
                   core activity within an organization. With Dinamika Managed
                   Services & Maintenance Support, we take care of entire E2E IT
-                  Operations for our customers with a low predictable monthly
+                  Operations for our customers with a low, predictable monthly
                   fee. Our Managed Services and Maintenance Support pricing are
-                  the best in the industry for the services and value offered,
-                  we bill our customer on a fixed agreed price with no hidden
+                  the best in the industry for the services and value offered.
+                  We bill our customers on a fixed agreed price with no hidden
                   cost.
                 </ReadMore>
                 <p className="text-base leading-relaxed my-2">
-                  For our customers we provide managed services and maintenance
-                  support as follow :
+                  For our customers, we provide managed services and maintenance
+                  support as follows:
                 </p>
 
                 <p>
@@ -539,7 +548,7 @@ const Product = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  System Monitoring and Support{" "}
+                  System Monitoring and Support
                   <span className="ml-5">(onsite/offsite) (L1 and L2)</span>
                 </p>
                 <p className="my-2">
@@ -604,7 +613,7 @@ const Product = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  System Health Checking and Preventive{" "}
+                  System Health Checking and Preventive
                   <span className="ml-5">Maintenance (L3)</span>
                 </p>
               </div>
@@ -636,14 +645,14 @@ const Product = () => {
                 </h2>
                 <ReadMore>
                   System Implementation, Integration, or Project Management, our
-                  world class and industry-trained professionals are ready to
-                  deliver services that will exceed your expectation. Through
-                  years of experience and multiple industry exposure, Dinamika
-                  implementation methodology has evolved and adapts to fit your
-                  organization needs. Our personalize approach will provide
-                  guidance to rapidly implement the right solution without
-                  compromising the project management practices such as
-                  riskavoidance, task and time management, quality management,
+                  world-class and industry-trained professionals are ready to
+                  deliver services that exceed your expectations. Through years
+                  of experience and multiple industry exposure, Dinamika`s
+                  implementation methodology will evolve and adapt to fit your
+                  organization`s needs. Our personalized approach will guide the
+                  rapidly implementing of the right solution without
+                  compromising the project management practices such as risk
+                  avoidance, task and time management, quality management,
                   status reporting, milestone management, and scope change
                   management.
                 </ReadMore>
