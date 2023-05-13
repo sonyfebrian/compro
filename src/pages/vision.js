@@ -15,7 +15,7 @@ export default function gallery() {
 
       <Hero />
 
-      <div className="grid grid-cols-2 md:grid-cols-3  gap-4 relative -mt-16 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 relative -mt-16">
         <div className="grid gap-4 mx-auto">
           <div>
             <Image
@@ -36,7 +36,7 @@ export default function gallery() {
             />
           </div>
         </div>
-        <div className="grid gap-4">
+        <div className="grid gap-4 mx-4">
           <div>
             <Image
               height=""
