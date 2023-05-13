@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Logo from "../assets/logo.png";
-import Hero from "./Hero.js";
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -22,15 +21,14 @@ export default function Header() {
     };
   }, []);
 
-  console.log(currentRoute, "route");
   return (
     <>
       {" "}
       <header
         className="fixed top-0 w-full  z-50  w-full pt-1"
         style={{
-          backgroundColor: navColor,
-          height: navSize,
+          backgroundColor: navbarOpen === true ? "#27313f" : navColor,
+          height: navbarOpen === true ? navSize : "5rem",
           transition: "all 1s",
         }}
       >
@@ -59,7 +57,7 @@ export default function Header() {
               </div>
             </div>
             <button
-              className="text-white pb-4 cursor-pointer leading-none px-3 py-1 md:hidden outline-none focus:outline-none content-end ml-auto"
+              className="cursor-pointer leading-none px-3 py-1 md:hidden outline-none focus:outline-none content-end ml-auto"
               type="button"
               aria-label="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
@@ -175,7 +173,6 @@ export default function Header() {
           </div>
         </div>
       </header>
-      {/* <Hero /> */}
     </>
   );
 }

@@ -35,7 +35,7 @@ export default function Team() {
                 Starts from one dream, one vision and one mission. Meet our team
               </p>
             </div>
-            <div className="flex flex-wrap -m-4">
+            <div className="flex flex-wrap -m-4 justify-center">
               <div className="p-4 lg:w-1/2 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
                   <Image

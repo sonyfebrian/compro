@@ -48,6 +48,7 @@ const AnimatedTextWord = ({ text }) => {
         // display: "flex",
         fontSize: "2rem",
         textAlign: "center",
+        marginTop: "2rem",
       }}
       variants={container}
       initial="hidden"
@@ -65,34 +66,7 @@ const AnimatedTextWord = ({ text }) => {
 export default function Hero() {
   const router = useRouter();
   const currentRoute = router.pathname;
-  const container = {
-    hidden: { opacity: 0 },
-    visible: (i = 1) => ({
-      opacity: 1,
-      transition: { staggerChildren: 0.12, delayChildren: 0.04 * i },
-    }),
-  };
 
-  const child = {
-    visible: {
-      opacity: 1,
-      x: 0,
-      transition: {
-        type: "spring",
-        damping: 12,
-        stiffness: 100,
-      },
-    },
-    hidden: {
-      opacity: 0,
-      x: 20,
-      transition: {
-        type: "spring",
-        damping: 12,
-        stiffness: 100,
-      },
-    },
-  };
   return (
     <>
       <section className="hero relative">
@@ -102,6 +76,7 @@ export default function Hero() {
           src={HeroLogo}
           alt="houses on the water"
           className="w-full"
+          style={{ maxWidth: "100%" }}
         />
         {currentRoute === "/" && (
           <>

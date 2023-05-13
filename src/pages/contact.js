@@ -19,86 +19,11 @@ export default function contact() {
         </div>
 
         <div className="wrap w-full sm:w-5/6 mx-auto relative">
-          <div className="grid grid-cols-10 ">
-            {/* <div className="row-span-full col-span-6 col-end-11  self-center px-28 py-4  text-white bg-white shadow-md border rounded-lg">
-              <div className="lg:w-full md:w-2/3 mx-auto ">
-                <div className="flex flex-wrap -m-2">
-                  <div className="p-2 w-full">
-                    <div className="relative">
-                      <label
-                        htmlFor="name"
-                        className="leading-7 text-sm text-gray-600"
-                      >
-                        Name
-                      </label>
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="p-2 w-full">
-                    <div className="relative">
-                      <label
-                        htmlFor="name"
-                        className="leading-7 text-sm text-gray-600"
-                      >
-                        Email
-                      </label>
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                      />
-                    </div>
-                  </div>
-                  <div className="p-2 w-full">
-                    <div className="relative">
-                      <label
-                        htmlFor="name"
-                        className="leading-7 text-sm text-gray-600"
-                      >
-                        Subject
-                      </label>
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                      />
-                    </div>
-                  </div>
-                  <div className="p-2 w-full">
-                    <div className="relative">
-                      <label
-                        htmlFor="message"
-                        className="leading-7 text-sm text-gray-600"
-                      >
-                        Message
-                      </label>
-                      <textarea
-                        id="message"
-                        name="message"
-                        className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                      ></textarea>
-                    </div>
-                  </div>
-                  <div className="p-2 w-full mb-4">
-                    <button className="flex mx-auto text-white bg-[#000080] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                      Send
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div> */}
+          <div className="grid lg:grid-cols-10 md:grid-col-5 md:px-10 sm:px-10 px-10">
             <div className="row-span-full col-span-6 col-start-5 sm:col-end-11 self-center px-4 sm:px-10 py-4 text-white bg-white shadow-md border rounded-lg">
               <div className="lg:w-full md:w-2/3 mx-auto">
                 <div className="flex flex-wrap -m-2">
-                  <div className="lg:px-32 w-full">
+                  <div className="lg:px-32 md:px-10 sm:px-10 px-10 w-full">
                     <div className="relative">
                       <label
                         htmlFor="name"
@@ -115,7 +40,7 @@ export default function contact() {
                     </div>
                   </div>
 
-                  <div className="lg:px-32 w-full">
+                  <div className="lg:px-32 md:px-10 sm:px-10 px-10 w-full">
                     <div className="relative">
                       <label
                         htmlFor="email"
@@ -131,7 +56,7 @@ export default function contact() {
                       />
                     </div>
                   </div>
-                  <div className="lg:px-32 w-full">
+                  <div className="lg:px-32 md:px-10 sm:px-10 px-10 w-full">
                     <div className="relative">
                       <label
                         htmlFor="subject"
@@ -147,7 +72,7 @@ export default function contact() {
                       />
                     </div>
                   </div>
-                  <div className="lg:px-32 w-full">
+                  <div className="lg:px-32 md:px-10 sm:px-10 px-10 w-full">
                     <div className="relative">
                       <label
                         htmlFor="message"
@@ -162,7 +87,7 @@ export default function contact() {
                       ></textarea>
                     </div>
                   </div>
-                  <div className="lg:px-32 w-full mb-4">
+                  <div className="lg:px-32 md:px-10 sm:px-10 px-10 w-full my-5">
                     <button className="flex mx-auto text-white bg-[#000080] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                       Send
                     </button>
@@ -220,44 +145,7 @@ export default function contact() {
 
                 <span className="title-font font-medium">+6221 29552704</span>
               </div>
-              {/* <div className="flex h-full items-center py-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-6 h-6 flex-shrink-0 mr-4"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
-                  />
-                </svg>
 
-                <span className="title-font font-medium">info@inidigi.com</span>
-              </div> */}
-              {/* <div className="flex h-full items-center py-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-6 h-6 flex-shrink-0 mr-4"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M20.893 13.393l-1.135-1.135a2.252 2.252 0 01-.421-.585l-1.08-2.16a.414.414 0 00-.663-.107.827.827 0 01-.812.21l-1.273-.363a.89.89 0 00-.738 1.595l.587.39c.59.395.674 1.23.172 1.732l-.2.2c-.212.212-.33.498-.33.796v.41c0 .409-.11.809-.32 1.158l-1.315 2.191a2.11 2.11 0 01-1.81 1.025 1.055 1.055 0 01-1.055-1.055v-1.172c0-.92-.56-1.747-1.414-2.089l-.655-.261a2.25 2.25 0 01-1.383-2.46l.007-.042a2.25 2.25 0 01.29-.787l.09-.15a2.25 2.25 0 012.37-1.048l1.178.236a1.125 1.125 0 001.302-.795l.208-.73a1.125 1.125 0 00-.578-1.315l-.665-.332-.091.091a2.25 2.25 0 01-1.591.659h-.18c-.249 0-.487.1-.662.274a.931.931 0 01-1.458-1.137l1.411-2.353a2.25 2.25 0 00.286-.76m11.928 9.869A9 9 0 008.965 3.525m11.928 9.868A9 9 0 118.965 3.525"
-                  />
-                </svg>
-
-                <span className="title-font font-medium">
-                  http://www.inidigi.com
-                </span>
-              </div> */}
               <span className="inline-flex">
                 <a className="text-gray-500">
                   <svg

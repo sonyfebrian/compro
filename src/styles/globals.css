@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 
-.hero img {
+/* .hero img {
   height: 100vh;
-}
+} */
 
 .heading-container {
   height: 70vh;
