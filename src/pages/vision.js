@@ -109,7 +109,7 @@ export default function gallery() {
                   height=""
                   width=""
                   className="w-full object-cover h-full object-center block"
-                  src={Bg3}
+                  src={Bg4}
                   alt=""
                 />
 
@@ -117,7 +117,7 @@ export default function gallery() {
                   height=""
                   width=""
                   className="h-auto max-w-full rounded-lg"
-                  src={Bg1}
+                  src={Bg}
                   alt=""
                 />
               </div>
