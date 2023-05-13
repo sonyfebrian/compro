@@ -7,6 +7,7 @@ import Bg1 from "../assets/2.png";
 import Bg2 from "../assets/3.webp";
 import Bg3 from "../assets/4.webp";
 import Bg4 from "../assets/5.png";
+import BgMobile from "../assets/mobile.webp";
 
 export default function gallery() {
   return (
@@ -14,60 +15,117 @@ export default function gallery() {
       <Header />
 
       <Hero />
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 relative -mt-16">
-        <div className="grid gap-4 mx-auto">
-          <div>
-            <Image
-              height=""
-              width=""
-              className="h-auto max-w-full rounded-lg"
-              src={Bg3}
-              alt=""
-            />
+      <div className="hidden md:block">
+        {" "}
+        <div className="grid  grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-4 relative -mt-16">
+          <div className="grid gap-4 mx-auto ">
+            <div>
+              <Image
+                height=""
+                width=""
+                className="h-auto max-w-full rounded-lg"
+                src={Bg3}
+                alt=""
+              />
+            </div>
+            <div>
+              <Image
+                height=""
+                width=""
+                className="h-auto max-w-full rounded-lg"
+                src={Bg1}
+                alt=""
+              />
+            </div>
           </div>
-          <div>
-            <Image
-              height=""
-              width=""
-              className="h-auto max-w-full rounded-lg"
-              src={Bg1}
-              alt=""
-            />
+          <div className="grid gap-4 mx-4">
+            <div>
+              <Image
+                height=""
+                width=""
+                className="h-auto max-w-full rounded-lg"
+                src={Bg2}
+                alt=""
+              />
+            </div>
           </div>
-        </div>
-        <div className="grid gap-4 mx-4">
-          <div>
-            <Image
-              height=""
-              width=""
-              className="h-auto max-w-full rounded-lg"
-              src={Bg2}
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="grid gap-4 mx-auto">
-          <div>
-            <Image
-              height=""
-              width=""
-              className="h-auto max-w-full rounded-lg"
-              src={Bg4}
-              alt=""
-            />
-          </div>
-          <div>
-            <Image
-              height=""
-              width=""
-              className="h-auto max-w-full rounded-lg"
-              src={Bg}
-              alt=""
-            />
+          <div className="grid gap-4 mx-auto">
+            <div>
+              <Image
+                height=""
+                width=""
+                className="h-auto max-w-full rounded-lg"
+                src={Bg4}
+                alt=""
+              />
+            </div>
+            <div>
+              <Image
+                height=""
+                width=""
+                className="h-auto max-w-full rounded-lg"
+                src={Bg}
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
+      <div className="md:hidden lg:hidden">
+        {" "}
+        <div className="flex flex-wrap mt-10 md:-m-2 -m-1 justify-center">
+          <div className="flex flex-wrap w-2/3">
+            <div className="md:p-2 p-1 w-1/3">
+              <div className="grid gap-4 mx-auto">
+                <Image
+                  height=""
+                  width=""
+                  className="h-auto max-w-full rounded-lg"
+                  src={Bg3}
+                  alt=""
+                />
+
+                <Image
+                  height=""
+                  width=""
+                  className="h-auto max-w-full rounded-lg"
+                  src={Bg1}
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="md:p-2 p-1 w-1/3">
+              <Image
+                height=""
+                width=""
+                className="w-full object-cover h-full object-center block rounded-md"
+                src={BgMobile}
+                alt=""
+              />
+            </div>
+            <div className="md:p-2 p-1 w-1/3">
+              <div className="grid gap-4 mx-auto">
+                <Image
+                  height=""
+                  width=""
+                  className="w-full object-cover h-full object-center block"
+                  src={Bg3}
+                  alt=""
+                />
+
+                <Image
+                  height=""
+                  width=""
+                  className="h-auto max-w-full rounded-lg"
+                  src={Bg1}
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="p-14">
         <h1 className="title-font uppercase text-lg font-extrabold text-gray-900 mb-3">
           who we are
