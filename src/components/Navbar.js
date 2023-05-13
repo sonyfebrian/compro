@@ -48,12 +48,12 @@ export default function Header() {
                 />
               </div>
               <div>
-                <a
-                  href="/home"
+                <Link
+                  href="/"
                   className="text-2xl no-underline uppercase text-[#662d91] hover:text-blue-dark font-sans font-bold"
                 >
                   Dinamika
-                </a>
+                </Link>
 
                 <p className="text-xs text-white">VISUAL KREASINDO</p>
               </div>

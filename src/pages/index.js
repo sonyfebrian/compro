@@ -11,7 +11,6 @@ import Team from "@/components/Team";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ScrollToTop from "react-scroll-to-top";
-import HomePage from "./home";
 
 export default function Home() {
   return (
@@ -32,7 +31,6 @@ export default function Home() {
       <Team />
       <Contact />
       <Footer />
-      {/* <HomePage /> */}
     </div>
   );
 }
