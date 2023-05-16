@@ -105,11 +105,9 @@ export default function Team() {
                   />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-gray-900">
-                      Jonathan Fooldya
+                      Aisyah Amini Br Pasaribu
                     </h2>
-                    <h3 className="text-gray-500 mb-3">
-                      Sales & Operation Vice President
-                    </h3>
+                    <h3 className="text-gray-500 mb-3">Direktur Utama</h3>
                     <span className="inline-flex">
                       <a className="text-gray-500">
                         <svg
