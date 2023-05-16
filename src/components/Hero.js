@@ -129,7 +129,7 @@ export default function Hero() {
           <>
             {" "}
             <div className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-              <AnimatedTextCharacter text="WHY DINAMIKA" />
+              <AnimatedTextCharacter text="WHY RAFAS" />
             </div>
           </>
         )}

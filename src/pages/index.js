@@ -15,9 +15,12 @@ import ScrollToTop from "react-scroll-to-top";
 export default function Home() {
   return (
     <div>
-      <NextSeo title="Dinamika Visual" description="Dinamika Visual" />
+      <NextSeo
+        title="Rafas Digital Kreasi"
+        description="Rafas Digital Kreasi"
+      />
       <Head>
-        <title>Dinamika Visual</title>
+        <title>Rafas Digital Kreasi</title>
         <link rel="icon" href="/logo.png" />
       </Head>
       <ScrollToTop smooth />

@@ -15,7 +15,7 @@ const ReadMore = ({ children }) => {
       {isReadMore ? text.slice(0, 150) : text}
       <span
         onClick={toggleReadMore}
-        className="text-indigo-500 inline-flex items-center leading-relaxed mb-2"
+        className="text-[#E64936] inline-flex items-center leading-relaxed mb-2"
       >
         {isReadMore ? (
           <>
@@ -57,15 +57,15 @@ const Product = () => {
             </h1>
           </div>
           <div className="flex flex-wrap -m-4 ">
-            <div className="p-4 md:w-1/3 sm:w-1/2 w-full ">
-              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-white bg-[#000080]">
+            <div className="p-4 md:w-1/3 sm:w-1/2 w-full  ">
+              <div className="border-2 border-gray-200  px-4 py-6 rounded-lg text-black bg-[#E64936]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="text-white w-12 h-12 mb-3 inline-block"
+                  className="text-black w-12 h-12 mb-3 inline-block"
                 >
                   <path
                     strokeLinecap="round"
@@ -89,7 +89,7 @@ const Product = () => {
                 </p>
               </div>
             </div>
-            <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
+            <div className="p-4 md:w-1/3 sm:w-1/2 w-full h-62">
               <div className="border-2 border-gray-200 px-4 py-6 rounded-lg ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@ const Product = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                  className="text-[#E64936] w-12 h-12 mb-3 inline-block"
                 >
                   <path
                     strokeLinecap="round"
@@ -123,13 +123,13 @@ const Product = () => {
               </div>
             </div>
             <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
-              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-white bg-[#000080]">
+              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-black bg-[#E64936]">
                 <svg
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="text-white w-12 h-12 mb-3 inline-block"
+                  className="text-black w-12 h-12 mb-3 inline-block"
                 >
                   <path d="M23 12l-4-4v3h-3.14c-.45-1.72-2-3-3.86-3s-3.41 1.28-3.86 3H5L2 8v8l3-3h3.14c.45 1.72 2 3 3.86 3s3.41-1.28 3.86-3H19v3l4-4m-11 2c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z" />
                 </svg>
@@ -151,7 +151,7 @@ const Product = () => {
                   fill="currentColor"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                  className="text-[#E64936] w-12 h-12 mb-3 inline-block"
                 >
                   <path d="M184 88c0 30.9-25.1 56-56 56s-56-25.1-56-56 25.1-56 56-56 56 25.1 56 56zM64 245.7c-10 11.2-16 26.1-16 42.3s6 31.1 16 42.3v-84.6zm144.4-49.3C178.7 222.7 160 261.2 160 304c0 34.3 12 65.8 32 90.5V416c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32v-26.8C26.2 371.2 0 332.7 0 288c0-61.9 50.1-112 112-112h32c24 0 46.2 7.5 64.4 20.3zM448 416v-21.5c20-24.7 32-56.2 32-90.5 0-42.8-18.7-81.3-48.4-107.7C449.8 183.5 472 176 496 176h32c61.9 0 112 50.1 112 112 0 44.7-26.2 83.2-64 101.2V416c0 17.7-14.3 32-32 32h-64c-17.7 0-32-14.3-32-32zM568 88c0 30.9-25.1 56-56 56s-56-25.1-56-56 25.1-56 56-56 56 25.1 56 56zm8 157.7v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM320 160c-35.3 0-64-28.7-64-64s28.7-64 64-64 64 28.7 64 64-28.7 64-64 64zm-80 144c0 16.2 6 31 16 42.3v-84.6c-10 11.3-16 26.1-16 42.3zm144-42.3v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zm64 42.3c0 44.7-26.2 83.2-64 101.2V448c0 17.7-14.3 32-32 32h-64c-17.7 0-32-14.3-32-32v-42.8c-37.8-18-64-56.5-64-101.2 0-61.9 50.1-112 112-112h32c61.9 0 112 50.1 112 112z" />
                 </svg>
@@ -176,7 +176,7 @@ const Product = () => {
                           className={
                             "flex-grow border-b-2 border-gray-300 py-2 text-lg px-1" +
                             (openTab === 1
-                              ? "flex-grow text-indigo-500 border-b-2 border-indigo-500 py-2 text-lg px-1"
+                              ? "flex-grow text-[#E64936] border-b-2 border-indigo-500 py-2 text-lg px-1"
                               : "flex-grow border-b-2 border-gray-300 py-2 text-lg px-1")
                           }
                           onClick={(e) => {
@@ -195,7 +195,7 @@ const Product = () => {
                           className={
                             "flex-grow border-b-2 border-gray-300 py-2 text-lg px-1" +
                             (openTab === 2
-                              ? "flex-grow text-indigo-500 border-b-2 border-indigo-500 py-2 text-lg px-1"
+                              ? "flex-grow text-[#E64936] border-b-2 border-indigo-500 py-2 text-lg px-1"
                               : "flex-grow border-b-2 border-gray-300 py-2 text-lg px-1")
                           }
                           onClick={(e) => {
@@ -214,7 +214,7 @@ const Product = () => {
                           className={
                             "flex-grow border-b-2 border-gray-300 py-2 text-lg px-1" +
                             (openTab === 3
-                              ? "flex-grow text-indigo-500 border-b-2 border-indigo-500 py-2 text-lg px-1"
+                              ? "flex-grow text-[#E64936] border-b-2 border-indigo-500 py-2 text-lg px-1"
                               : "flex-grow border-b-2 border-gray-300 py-2 text-lg px-1")
                           }
                           onClick={(e) => {
@@ -233,7 +233,7 @@ const Product = () => {
                           className={
                             "flex-grow border-b-2 border-gray-300 py-2 text-lg px-1" +
                             (openTab === 4
-                              ? "flex-grow text-indigo-500 border-b-2 border-indigo-500 py-2 text-lg px-1"
+                              ? "flex-grow text-[#E64936] border-b-2 border-indigo-500 py-2 text-lg px-1"
                               : "flex-grow border-b-2 border-gray-300 py-2 text-lg px-1")
                           }
                           onClick={(e) => {
@@ -291,14 +291,14 @@ const Product = () => {
               </div>
             </div>
             <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
-              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-white bg-[#000080]">
+              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-black bg-[#E64936]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="text-white w-12 h-12 mb-3 inline-block"
+                  className="text-black w-12 h-12 mb-3 inline-block"
                 >
                   <path
                     strokeLinecap="round"
@@ -328,7 +328,7 @@ const Product = () => {
                           className={
                             "flex-grow border-b-2 border-gray-300 py-2 text-lg px-1" +
                             (Tab === 1
-                              ? "flex-grow text-indigo-500 border-b-2 border-indigo-500 py-2 text-lg px-1"
+                              ? "flex-grow text-white border-b-2 border-indigo-500 py-2 text-lg px-1"
                               : "flex-grow border-b-2 border-gray-300 py-2 text-lg px-1")
                           }
                           onClick={(e) => {
@@ -347,7 +347,7 @@ const Product = () => {
                           className={
                             "flex-grow border-b-2 border-gray-300 py-2 text-lg px-1" +
                             (Tab === 2
-                              ? "flex-grow text-indigo-500 border-b-2 border-indigo-500 py-2 text-lg px-1"
+                              ? "flex-grow text-white border-b-2 border-indigo-500 py-2 text-lg px-1"
                               : "flex-grow border-b-2 border-gray-300 py-2 text-lg px-1")
                           }
                           onClick={(e) => {
@@ -366,7 +366,7 @@ const Product = () => {
                           className={
                             "flex-grow border-b-2 border-gray-300 py-2 text-lg px-1" +
                             (Tab === 3
-                              ? "flex-grow text-indigo-500 border-b-2 border-indigo-500 py-2 text-lg px-1"
+                              ? "flex-grow text-white border-b-2 border-indigo-500 py-2 text-lg px-1"
                               : "flex-grow border-b-2 border-gray-300 py-2 text-lg px-1")
                           }
                           onClick={(e) => {
@@ -435,7 +435,7 @@ const Product = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                  className="text-[#E64936] w-12 h-12 mb-3 inline-block"
                 >
                   <path
                     strokeLinecap="round"
@@ -472,7 +472,7 @@ const Product = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                  className="text-[#E64936] w-12 h-12 mb-3 inline-block"
                 >
                   <path
                     strokeLinecap="round"
@@ -505,7 +505,7 @@ const Product = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                  className="text-[#E64936] w-12 h-12 mb-3 inline-block"
                 >
                   <path
                     strokeLinecap="round"
@@ -535,7 +535,7 @@ const Product = () => {
                 </p>
 
                 <p>
-                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-[#f24425] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -548,11 +548,10 @@ const Product = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  System Monitoring and Support
-                  <span className="ml-5">(onsite/offsite) (L1 and L2)</span>
+                  System Monitoring and Support (onsite/offsite) (L1 and L2)
                 </p>
                 <p className="my-2">
-                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-[#f24425] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -568,7 +567,7 @@ const Product = () => {
                   Bug fixing (L3)
                 </p>
                 <p className="my-2">
-                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-[#f24425] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -584,7 +583,7 @@ const Product = () => {
                   Software upgrade (L3)
                 </p>
                 <p className="my-2">
-                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-[#f24425] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -600,7 +599,7 @@ const Product = () => {
                   Application customization and CR (L3)
                 </p>
                 <p>
-                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-[#f24425] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -613,8 +612,7 @@ const Product = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  System Health Checking and Preventive
-                  <span className="ml-5">Maintenance (L3)</span>
+                  System Health Checking and Preventive Maintenance (L3)
                 </p>
               </div>
             </div>
@@ -626,7 +624,7 @@ const Product = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                  className="text-[#E64936] w-12 h-12 mb-3 inline-block"
                 >
                   <path
                     strokeLinecap="round"
@@ -657,7 +655,7 @@ const Product = () => {
                   management.
                 </ReadMore>
                 <p>
-                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-[#f24425] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -673,7 +671,7 @@ const Product = () => {
                   Oracle Platinum Partner in Indonesia
                 </p>
                 <p className="my-2">
-                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-[#f24425] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -689,7 +687,7 @@ const Product = () => {
                   Oracle Siebel Certified Consultant
                 </p>
                 <p className="my-2">
-                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-[#f24425] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -706,7 +704,7 @@ const Product = () => {
                   <span className="ml-6">Consultant</span>
                 </p>
                 <p className="my-2">
-                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-[#f24425] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -722,7 +720,7 @@ const Product = () => {
                   Oracle CRM Cloud Certified Consultant
                 </p>
                 <p className="my-2">
-                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-[#f24425] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -738,7 +736,7 @@ const Product = () => {
                   Siebel Upgrade Factory ( Pointed by Oracle)
                 </p>
                 <p className="my-2">
-                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-[#f24425] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -754,7 +752,7 @@ const Product = () => {
                   Salesforce Certified Consultant
                 </p>
                 <p className="my-2">
-                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-[#f24425] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -770,7 +768,7 @@ const Product = () => {
                   Certified IBM Business Partner
                 </p>
                 <p className="my-2">
-                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-[#f24425] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -786,7 +784,7 @@ const Product = () => {
                   Full Commitments and Supports
                 </p>
                 <p className="my-2">
-                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-[#f24425] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -802,7 +800,7 @@ const Product = () => {
                   Proven Methodology and Approach
                 </p>
                 <p className="my-2">
-                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-[#f24425] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"

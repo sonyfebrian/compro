@@ -17,7 +17,7 @@ const carerr = () => {
         </h2>
         <p className="leading-relaxed  border-b my-2">Requirement</p>
         <p>
-          <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+          <span className="bg-[#E64936] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
             <svg
               fill="none"
               stroke="currentColor"
@@ -33,7 +33,7 @@ const carerr = () => {
           Must have extensive knowledge about technological developments.
         </p>
         <p>
-          <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+          <span className="bg-[#E64936] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
             <svg
               fill="none"
               stroke="currentColor"
@@ -50,7 +50,7 @@ const carerr = () => {
           technically
         </p>
         <p>
-          <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+          <span className="bg-[#E64936] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
             <svg
               fill="none"
               stroke="currentColor"
@@ -66,7 +66,7 @@ const carerr = () => {
           Can make a proposal document well
         </p>
         <p>
-          <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+          <span className="bg-[#E64936] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
             <svg
               fill="none"
               stroke="currentColor"
@@ -83,7 +83,7 @@ const carerr = () => {
         </p>
         <p className="leading-relaxed border-b my-2">Qualification</p>
         <p>
-          <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+          <span className="bg-[#E64936] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
             <svg
               fill="none"
               stroke="currentColor"
@@ -100,7 +100,7 @@ const carerr = () => {
           Information engineering
         </p>
         <p>
-          <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+          <span className="bg-[#E64936] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
             <svg
               fill="none"
               stroke="currentColor"
@@ -117,7 +117,7 @@ const carerr = () => {
           in Information engineering company
         </p>
         <p>
-          <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+          <span className="bg-[#E64936] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
             <svg
               fill="none"
               stroke="currentColor"
@@ -133,7 +133,7 @@ const carerr = () => {
           Excellent communication and interpersonal skill
         </p>
         <p>
-          <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+          <span className="bg-[#E64936] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
             <svg
               fill="none"
               stroke="currentColor"
@@ -149,7 +149,7 @@ const carerr = () => {
           Positive working attitude
         </p>
         <p>
-          <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+          <span className="bg-[#E64936] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
             <svg
               fill="none"
               stroke="currentColor"
@@ -166,7 +166,7 @@ const carerr = () => {
           undertaken
         </p>
         <p>
-          <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+          <span className="bg-[#E64936] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
             <svg
               fill="none"
               stroke="currentColor"

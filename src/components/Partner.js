@@ -29,7 +29,7 @@ export default function Partner() {
             exit="hide"
           >
             <h2 className="mb-1 lg:mb-1 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 dark:text-white md:text-4xl">
-              DINAMIKA PARTNER
+              RAFAS PARTNER
             </h2>
             <p className="leading-relaxed text-base text-center mb-4">
               Meet our Professional Partner
@@ -37,7 +37,7 @@ export default function Partner() {
           </motion.header>
 
           <div>
-            <div className="flex flex-wrap md:w-1/2 justify-center items-center">
+            <div className="flex flex-wrap md:w-1/2 justify-center mx-auto items-center">
               <Image src={LogoAge} width="40px" height="40px" alt="Logo" />
               <Image src={LogoIsystem} width="40px" height="40px" alt="Logo" />
             </div>

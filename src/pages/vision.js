@@ -135,46 +135,45 @@ export default function gallery() {
           technology is needed to meet the challenges of these developments.
           Information technology has the main objective of simplifying human
           activities and giving a solution for every problem in life. We built
-          PT. DINAMIKA VISUAL KREASINDO based on enthusiasm and a strong
-          commitment among its founders to providing solutions to all our
-          client’s business activities. We offer a solution in the form of
-          information technology, which we believe will be very useful and the
-          best solution to any problem in the growing complexity of any existing
-          business. DINAMIKA VISUAL KREASINDO offers a solution in the form of
-          information technology. Our company has important primary values:
-          quality of services, punctuality, and client satisfaction. Therefore
-          the purpose of our company is to play a role in facilitating and
-          making all our client’s business activities more efficient. In
-          addition, our company will also align with similar companies to
-          optimize our ability to serve all the client’s needs. We have
-          professional and qualified management and a competent technical team
-          in their field. Thus we believe that our companies can compete
-          actively, both nationally and globally, in the information technology
-          industry.
+          PT. RAFAS DIGITAL KREASI based on enthusiasm and a strong commitment
+          among its founders to providing solutions to all our client’s business
+          activities. We offer a solution in the form of information technology,
+          which we believe will be very useful and the best solution to any
+          problem in the growing complexity of any existing business. RAFAS
+          DIGITAL KREASI offers a solution in the form of information
+          technology. Our company has important primary values: quality of
+          services, punctuality, and client satisfaction. Therefore the purpose
+          of our company is to play a role in facilitating and making all our
+          client’s business activities more efficient. In addition, our company
+          will also align with similar companies to optimize our ability to
+          serve all the client’s needs. We have professional and qualified
+          management and a competent technical team in their field. Thus we
+          believe that our companies can compete actively, both nationally and
+          globally, in the information technology industry.
         </p>
         <p className="leading-relaxed mb-3 text-gray-600">
           Information Technology is a field which will never stop growing as
           long as the life and activities of human still exist. That’s why
           business in Information Technology is one of the businesses which has
           the most rapid development; due to its highly competition and
-          innovation. PT. DINAMIKA VISUAL KREASINDO emphasizes the uniqueness
-          that is different from its peers. So we dare to be at the forefront of
-          the development of Information Technology business competition. With
-          our experience and portfolio, as well as good relations with an
-          extensive network, PT. DINAMIKA VISUAL KREASINDO is ready to continue
-          to grow. Our main focus is to build and maintain a good reputation,
-          and to increase profitability based on our target.
+          innovation. PT. RAFAS DIGITAL KREASI emphasizes the uniqueness that is
+          different from its peers. So we dare to be at the forefront of the
+          development of Information Technology business competition. With our
+          experience and portfolio, as well as good relations with an extensive
+          network, PT. RAFAS DIGITAL KREASI is ready to continue to grow. Our
+          main focus is to build and maintain a good reputation, and to increase
+          profitability based on our target.
         </p>
         <p className="leading-relaxed mb-3 text-gray-600">
           Information Technology is a field which will always grow as long as
           the life and activities of humans still exist. That’s why business in
           Information Technology is one of the most rapidly developed
-          businesses; due to its high competition and innovation. PT. DINAMIKA
-          VISUAL KREASINDO emphasizes the uniqueness that is different from its
+          businesses; due to its high competition and innovation. PT. RAFAS
+          DIGITAL KREASI emphasizes the uniqueness that is different from its
           peers. So we dare to be at the forefront of the development of
           Information Technology business competition with our experience,
-          portfolio, and good relations with an extensive network, PT. DINAMIKA
-          VISUAL KREASINDO is ready to continue to grow. Our main focus is to
+          portfolio, and good relations with an extensive network, PT. RAFAS
+          DIGITAL KREASI is ready to continue to grow. Our main focus is to
           build and maintain a good reputation and to increase profitability
           based on our target.
         </p>
@@ -190,7 +189,7 @@ export default function gallery() {
           Mission
         </h1>
         <p className="leading-relaxed mb-3 text-gray-600">
-          <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+          <span className="bg-[#E64936] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
             <svg
               fill="none"
               stroke="currentColor"
@@ -207,7 +206,7 @@ export default function gallery() {
           for your business.
         </p>
         <p className="leading-relaxed mb-3 text-gray-600">
-          <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+          <span className="bg-[#E64936] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
             <svg
               fill="none"
               stroke="currentColor"
@@ -224,7 +223,7 @@ export default function gallery() {
           technology innovation.
         </p>
         <p className="leading-relaxed mb-3 text-gray-600">
-          <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+          <span className="bg-[#E64936] text-black w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
             <svg
               fill="none"
               stroke="currentColor"

@@ -34,7 +34,7 @@ export default function Service() {
           <div className="container px-5 py-5 mx-auto ">
             <div className="flex flex-col text-center w-full mb-20">
               <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-2">
-                DINAMIKA SERVICES
+                RAFAS SERVICES
               </h1>
               <h2 className="text-lg  tracking-widest font-medium title-font mb-1">
                 Do our best to give solutions in Information Technology globally

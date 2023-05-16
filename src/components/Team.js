@@ -29,7 +29,7 @@ export default function Team() {
           >
             <div className="flex flex-col text-center w-full mb-20">
               <h1 className="text-2xl font-medium title-font mb-4 text-gray-900">
-                DINAMIKA TEAM
+                RAFAS TEAM
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
                 Starts from one dream, one vision and one mission. Meet our team
@@ -49,9 +49,7 @@ export default function Team() {
                     <h2 className="title-font font-medium text-lg text-gray-900">
                       Yuda Dwisaksono
                     </h2>
-                    <h3 className="text-gray-500 mb-3">
-                      Chief Executive Officer
-                    </h3>
+                    <h3 className="text-gray-500 mb-3">Komisaris</h3>
                     <span className="inline-flex">
                       <a className="text-gray-500">
                         <svg

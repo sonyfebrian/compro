@@ -23,7 +23,7 @@ const dinamika = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="3"
-                  className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                  className="text-[#E64936] w-6 h-6 flex-shrink-0 mr-4"
                   viewBox="0 0 24 24"
                 >
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -42,7 +42,7 @@ const dinamika = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="3"
-                  className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                  className="text-[#E64936] w-6 h-6 flex-shrink-0 mr-4"
                   viewBox="0 0 24 24"
                 >
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -62,7 +62,7 @@ const dinamika = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="3"
-                  className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                  className="text-[#E64936] w-6 h-6 flex-shrink-0 mr-4"
                   viewBox="0 0 24 24"
                 >
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -82,7 +82,7 @@ const dinamika = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="3"
-                  className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                  className="text-[#E64936] w-6 h-6 flex-shrink-0 mr-4"
                   viewBox="0 0 24 24"
                 >
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -91,8 +91,8 @@ const dinamika = () => {
                 <span className="title-font font-medium">
                   Have unique and positive difference information technology
                   solutions and the best quality service. All because of PT.
-                  DINAMIKA VISUAL KREASINDO builds a system based on the needs
-                  of each client and partner business process.
+                  RAFAS DIGITAL KREASI builds a system based on the needs of
+                  each client and partner business process.
                 </span>
               </div>
             </div>
@@ -104,7 +104,7 @@ const dinamika = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="3"
-                  className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                  className="text-[#E64936] w-6 h-6 flex-shrink-0 mr-4"
                   viewBox="0 0 24 24"
                 >
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -112,8 +112,8 @@ const dinamika = () => {
                 </svg>
                 <span className="title-font font-medium">
                   Provide convenience to clients in selecting any of the options
-                  offered. It reflects the commitment of PT. DINAMIKA VISUAL
-                  KREASINDO in increasing progress and providing added value to
+                  offered. It reflects the commitment of PT. RAFAS DIGITAL
+                  KREASI in increasing progress and providing added value to
                   clients and partners.
                 </span>
               </div>

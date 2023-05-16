@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo_ra.png";
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -35,7 +35,7 @@ export default function Header() {
         <div className="max-w-5xl mx-auto flex flex-wrap p-1 flex-col md:flex-row">
           <div className="flex flex-row items-center justify-between p-3 md:p-1">
             <div className="sm:mb-0 flex flex-row">
-              <div className="h-14 w-10 self-center mr-2">
+              <div className="h-14 w-10 self-center mr-2 mt-5">
                 <Image
                   alt="logo"
                   width="10px"
@@ -45,15 +45,15 @@ export default function Header() {
                   // src="https://csscomps.com/images/csscomps.png"
                 />
               </div>
-              <div>
+              <div className="mt-6">
                 <Link
                   href="/"
-                  className="text-2xl no-underline uppercase text-[#662d91] hover:text-blue-dark font-sans font-bold"
+                  className="text-2xl no-underline uppercase text-[#E64936] hover:text-blue-dark font-sans font-bold"
                 >
-                  Dinamika
+                  Rafas
                 </Link>
 
-                <p className="text-xs text-white">VISUAL KREASINDO</p>
+                {/* <p className="text-xs text-white">VISUAL KREASINDO</p> */}
               </div>
             </div>
             <button
@@ -92,17 +92,18 @@ export default function Header() {
                 // className="mr-4 pr-2 text-sm uppercase cursor-pointer text-gray-300 hover:text-white font-semibold tr04"
                 className={
                   currentRoute === "/"
-                    ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#00FFFF] border-b-2 border-[#00FFFF] p-1 hover:text-[#00FFFF] font-semibold tr04"
+                    ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#E64936] border-b-2 border-[#E64936] p-1 hover:text-[#E64936] font-semibold tr04"
                     : "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#C0C0C0] hover:text-white font-semibold tr04"
                 }
               >
                 Home
               </Link>
+
               <Link
                 href="/vision"
                 className={
                   currentRoute === "/vision"
-                    ? "text-sm uppercase cursor-pointer text-[#00FFFF] border-b-2 border-[#00FFFF]  hover:text-[#00FFFF] font-semibold"
+                    ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#E64936] border-b-2 border-[#E64936] p-1 hover:text-[#E64936] font-semibold tr04"
                     : "text-sm uppercase cursor-pointer text-[#C0C0C0] hover:text-white font-semibold tr04"
                 }
               >
@@ -112,7 +113,7 @@ export default function Header() {
                 href="/product"
                 className={
                   currentRoute === "/product"
-                    ? "mx-2 text-sm uppercase cursor-pointer text-[#00FFFF] border-b-2 border-[#00FFFF]  hover:text-[#00FFFF] font-semibold"
+                    ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#E64936] border-b-2 border-[#E64936] p-1 hover:text-[#E64936] font-semibold tr04"
                     : "mx-2 text-sm uppercase cursor-pointer text-[#C0C0C0] hover:text-white font-semibold tr04"
                 }
               >
@@ -122,17 +123,17 @@ export default function Header() {
                 href="/dinamika"
                 className={
                   currentRoute === "/dinamika"
-                    ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#00FFFF] border-b-2 border-[#00FFFF] p-1 hover:text-[#00FFFF] font-semibold tr04"
+                    ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#E64936] border-b-2 border-[#E64936] p-1 hover:text-[#E64936] font-semibold tr04"
                     : "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#C0C0C0] hover:text-white font-semibold tr04"
                 }
               >
-                why dinamika
+                why rafas
               </Link>
               <Link
                 href="customer"
                 className={
                   currentRoute === "/customer"
-                    ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#00FFFF] border-b-2 border-[#00FFFF] p-1 hover:text-[#00FFFF] font-semibold tr04"
+                    ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#E64936] border-b-2 border-[#E64936] p-1 hover:text-[#E64936] font-semibold tr04"
                     : "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#C0C0C0] hover:text-white font-semibold tr04"
                 }
               >
@@ -142,7 +143,7 @@ export default function Header() {
                 href="/gallery"
                 className={
                   currentRoute === "/gallery"
-                    ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#00FFFF] border-b-2 border-[#00FFFF] p-1 hover:text-[#00FFFF] font-semibold tr04"
+                    ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#E64936] border-b-2 border-[#E64936] p-1 hover:text-[#E64936] font-semibold tr04"
                     : "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#C0C0C0] hover:text-white font-semibold tr04"
                 }
               >
@@ -152,7 +153,7 @@ export default function Header() {
                 href="/contact"
                 className={
                   currentRoute === "/contact"
-                    ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#00FFFF] border-b-2 border-[#00FFFF] p-1 hover:text-[#00FFFF] font-semibold tr04"
+                    ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#E64936] border-b-2 border-[#E64936] p-1 hover:text-[#E64936] font-semibold tr04"
                     : "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#C0C0C0] hover:text-white font-semibold tr04"
                 }
               >
@@ -163,7 +164,7 @@ export default function Header() {
                 href="/career"
                 className={
                   currentRoute === "/career"
-                    ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#00FFFF] border-b-2 border-[#00FFFF] p-1 hover:text-[#00FFFF] font-semibold tr04"
+                    ? "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#E64936] border-b-2 border-[#E64936] p-1 hover:text-[#E64936] font-semibold tr04"
                     : "mr-4 pr-2 text-sm uppercase cursor-pointer text-[#C0C0C0] hover:text-white font-semibold tr04"
                 }
               >

@@ -1,5 +1,6 @@
-import valueBg from "../assets/value.webp";
+import valueBg from "../assets/value.png";
 import Image from "next/image";
+
 import { motion } from "framer-motion";
 
 const introHeaderVariants = {
@@ -30,7 +31,7 @@ const introHeaderVariantsRight = {
   },
 };
 
-export default function Value() {
+export default function Value({ data }) {
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
@@ -52,7 +53,7 @@ export default function Value() {
                   exit="hide"
                   variants={introHeaderVariants}
                 >
-                  DINAMIKA VALUE
+                  RAFAS VALUE
                 </motion.header>
               </h2>
 

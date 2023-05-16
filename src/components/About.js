@@ -38,7 +38,7 @@ export default function About() {
                 variants={introHeaderVariants}
               >
                 <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
-                  ABOUT DINAMIKA
+                  ABOUT RAFAS
                 </h1>
               </motion.header>
 
@@ -53,7 +53,7 @@ export default function About() {
                 information technology is needed to meet the challenges of these
                 developments. Information technology has the main objective of
                 simplifying human activities and giving a solution for every
-                problem in life. We built PT. DINAMIKA VISUAL KREASINDO based on
+                problem in life. We built PT. RAFAS DIGITAL KREASI based on
                 enthusiasm and a strong commitment among its founders to
                 providing solutions to all our client`s business activities. We
                 offer a solution in the form of information technology, which
@@ -72,7 +72,7 @@ export default function About() {
               </motion.header>
               <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
                 <div
-                  className="bg-[#000080] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
+                  className="bg-[#E64936] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
                   style={{ width: "10%" }}
                 >
                   10%
@@ -89,7 +89,7 @@ export default function About() {
               </motion.header>
               <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
                 <div
-                  className="bg-[#000080] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
+                  className="bg-[#E64936] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
                   style={{ width: "10%" }}
                 >
                   10%
@@ -107,7 +107,7 @@ export default function About() {
               </motion.header>
               <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
                 <div
-                  className="bg-[#000080] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
+                  className="bg-[#E64936] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
                   style={{ width: "80%" }}
                 >
                   80%
@@ -125,7 +125,7 @@ export default function About() {
               </motion.header>
               <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
                 <div
-                  className="bg-[#000080] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
+                  className="bg-[#E64936] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
                   style={{ width: "80%" }}
                 >
                   80%
@@ -142,7 +142,7 @@ export default function About() {
               </motion.header>
               <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
                 <div
-                  className="bg-[#000080] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
+                  className="bg-[#E64936] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
                   style={{ width: "80%" }}
                 >
                   80%
