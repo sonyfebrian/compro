@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import Logo from "../assets/logo_ra.png";
+import Logo from "../assets/logo_r.png";
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -11,7 +11,9 @@ export default function Header() {
   const router = useRouter();
   const currentRoute = router.pathname;
   const listenScrollEvent = () => {
-    window.scrollY > 20 ? setnavColor("#272340") : setnavColor("transparent");
+    window.scrollY > 20
+      ? setnavColor("rgba(39, 35, 64, 0.8)")
+      : setnavColor("transparent");
     window.scrollY > 20 ? setnavSize("10rem") : setnavSize("8rem");
   };
   useEffect(() => {
@@ -27,7 +29,7 @@ export default function Header() {
       <header
         className="fixed top-0 w-full  z-50  w-full pt-1"
         style={{
-          backgroundColor: navbarOpen === true ? "#27313f" : navColor,
+          backgroundColor: navbarOpen === true ? "#272340" : navColor,
           height: navbarOpen === true ? navSize : "5rem",
           transition: "all 1s",
         }}

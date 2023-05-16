@@ -127,7 +127,7 @@ export default function gallery() {
       </div>
 
       <div className="p-14">
-        <h1 className="title-font uppercase text-lg font-extrabold text-gray-900 mb-3">
+        <h1 className="title-font uppercase text-lg font-extrabold text-[#E64936] mb-3">
           who we are
         </h1>
         <p className="leading-relaxed mb-3 text-gray-600">
@@ -177,7 +177,7 @@ export default function gallery() {
           build and maintain a good reputation and to increase profitability
           based on our target.
         </p>
-        <h1 className="title-font uppercase text-lg font-extrabold text-gray-900 mb-3 ">
+        <h1 className="title-font uppercase text-lg font-extrabold text-[#E64936] mb-3 ">
           Vision
         </h1>
         <p className="leading-relaxed mb-3 text-gray-600">
@@ -185,7 +185,7 @@ export default function gallery() {
           integrated and sustainable solutions in the field of information
           technology globally.
         </p>
-        <h1 className="title-font uppercase text-lg font-extrabold text-gray-900 mb-3">
+        <h1 className="title-font uppercase text-lg font-extrabold text-[#E64936] mb-3">
           Mission
         </h1>
         <p className="leading-relaxed mb-3 text-gray-600">

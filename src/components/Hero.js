@@ -75,12 +75,12 @@ export default function Hero() {
           height=""
           src={HeroLogo}
           alt="houses on the water"
-          className="w-full"
+          className="w-full bg-black opacity-80"
           style={{ maxWidth: "100%" }}
         />
         {currentRoute === "/" && (
           <>
-            {/* <span className="absolute text-white text-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            {/* <span className="absolute text-[#E64936] text-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               <AnimatedTextCharacter text="WIJAYA KARYA – BPM" />
 
               <p className="text-base text-center mt-2">
@@ -88,18 +88,18 @@ export default function Hero() {
                 Process Modeling
               </p>
             </span> */}
-            {/* <div className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            {/* <div className="absolute text-[#E64936] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               <AnimatedTextCharacter text="WIJAYA KARYA – BPM" />
               <p className="text-base text-center mt-2">
                 We bring solution for construction business throught Business
                 Process Modeling
               </p>
             </div> */}
-            {/* <div className=" absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            {/* <div className=" absolute text-[#E64936] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               {" "}
               <AnimatedTextCharacter text="WIJAYA KARYA – BPM" />
             </div> */}
-            <div className="absolute text-white top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute text-[#E64936] top-1/2 left-1/2   -translate-x-1/2 -translate-y-1/2">
               <AnimatedTextWord text="WIJAYA KARYA - BPM" />
               <p className="text-base text-center mt-2">
                 We bring solution for construction business throught Business
@@ -111,7 +111,7 @@ export default function Hero() {
         {currentRoute === "/vision" && (
           <>
             {" "}
-            <div className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute text-[#E64936] top-1/2  left-1/2 -translate-x-1/2 -translate-y-1/2">
               <AnimatedTextCharacter text="WHO WE ARE" />
             </div>
           </>
@@ -120,7 +120,7 @@ export default function Hero() {
         {currentRoute === "/product" && (
           <>
             {" "}
-            <div className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute text-[#E64936] top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2">
               <AnimatedTextCharacter text="WHAT WE DO" />
             </div>
           </>
@@ -128,7 +128,7 @@ export default function Hero() {
         {currentRoute === "/dinamika" && (
           <>
             {" "}
-            <div className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute text-[#E64936] top-1/2  left-1/2 -translate-x-1/2 -translate-y-1/2">
               <AnimatedTextCharacter text="WHY RAFAS" />
             </div>
           </>
@@ -136,7 +136,7 @@ export default function Hero() {
         {currentRoute === "/customer" && (
           <>
             {" "}
-            <div className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute text-[#E64936] top-1/2  left-1/2 -translate-x-1/2 -translate-y-1/2">
               <AnimatedTextCharacter text="CUSTOMERS" />
             </div>
           </>
@@ -144,7 +144,7 @@ export default function Hero() {
         {currentRoute === "/gallery" && (
           <>
             {" "}
-            <div className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute text-[#E64936] top-1/2   left-1/2 -translate-x-1/2 -translate-y-1/2">
               <AnimatedTextCharacter text="GALLERY" />
             </div>
           </>
@@ -152,7 +152,7 @@ export default function Hero() {
         {currentRoute === "/contact" && (
           <>
             {" "}
-            <div className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute text-[#E64936] top-1/2  left-1/2 -translate-x-1/2 -translate-y-1/2">
               <AnimatedTextCharacter text="CONTACT" />
             </div>
           </>
@@ -160,7 +160,7 @@ export default function Hero() {
         {currentRoute === "/career" && (
           <>
             {" "}
-            <div className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute text-[#E64936] top-1/2  left-1/2 -translate-x-1/2 -translate-y-1/2">
               <AnimatedTextCharacter text="CAREER" />
             </div>
           </>

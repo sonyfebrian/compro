@@ -66,13 +66,13 @@ export default function About() {
                 whileInView="show"
                 exit="hide"
                 variants={introHeaderVariants}
-                className="mb-1 mt-4 text-base font-medium dark:text-white"
+                className="mb-1 mt-4 text-base font-medium"
               >
                 Hardware
               </motion.header>
-              <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
+              <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 ">
                 <div
-                  className="bg-[#E64936] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
+                  className="bg-[#E64936] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full "
                   style={{ width: "10%" }}
                 >
                   10%
@@ -83,13 +83,13 @@ export default function About() {
                 whileInView="show"
                 exit="hide"
                 variants={introHeaderVariants}
-                className="mb-1 text-base font-medium dark:text-white"
+                className="mb-1 text-base font-medium "
               >
                 Network Solution
               </motion.header>
-              <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
+              <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 ">
                 <div
-                  className="bg-[#E64936] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
+                  className="bg-[#E64936] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full "
                   style={{ width: "10%" }}
                 >
                   10%
@@ -101,13 +101,13 @@ export default function About() {
                 whileInView="show"
                 exit="hide"
                 variants={introHeaderVariants}
-                className="mb-1 text-base font-medium dark:text-white"
+                className="mb-1 text-base font-medium "
               >
                 IT Consultant
               </motion.header>
-              <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
+              <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 ">
                 <div
-                  className="bg-[#E64936] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
+                  className="bg-[#E64936] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full "
                   style={{ width: "80%" }}
                 >
                   80%
@@ -119,13 +119,13 @@ export default function About() {
                 whileInView="show"
                 exit="hide"
                 variants={introHeaderVariants}
-                className="mb-1 text-base font-medium dark:text-white"
+                className="mb-1 text-base font-medium "
               >
                 System Intregrator
               </motion.header>
-              <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
+              <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 ">
                 <div
-                  className="bg-[#E64936] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
+                  className="bg-[#E64936] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full "
                   style={{ width: "80%" }}
                 >
                   80%
@@ -136,13 +136,13 @@ export default function About() {
                 whileInView="show"
                 exit="hide"
                 variants={introHeaderVariants}
-                className="mb-1 text-base font-medium dark:text-white"
+                className="mb-1 text-base font-medium "
               >
                 System Development
               </motion.header>
-              <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 dark:bg-gray-700">
+              <div className="w-full bg-gray-200 rounded-full p-0.5 mb-4 ">
                 <div
-                  className="bg-[#E64936] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full dark:bg-blue-500"
+                  className="bg-[#E64936] p-0.5 text-xs font-medium text-blue-100 text-center  rounded-full "
                   style={{ width: "80%" }}
                 >
                   80%
